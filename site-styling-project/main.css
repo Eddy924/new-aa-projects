@@ -1,1 +1,152 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #181818;
+  margin: 0;
+  padding: 0;
+}
 
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.navigationbar > nav {
+  background-color: #212121;
+  padding: 22px;
+  border: solid black;
+  margin: 70px;
+  font-size: 1.5em;
+  margin-bottom: 200px;
+  border-radius: 25px;
+  top: 0;
+  display:flex;
+  justify-content: center;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+}
+
+ a {
+  color: white;
+  margin: 50px;
+  text-decoration: none;
+  font-family: monospace;
+  width: 25%;
+}
+
+.login {
+  margin: 1rem;
+  padding: 4rem 4rem;
+}
+
+
+.login h1 {
+  font-family:Trebuchet MS, sans-serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.login div {
+  font-family: monospace;
+  color: white;
+}
+
+.loginimage {
+  float: left;
+  border: none;
+  margin: 10px;
+  padding-right: 180px;
+}
+
+.logininfo {
+  float: left;
+  border: solid black;
+  margin: 2px;
+  border-radius: 25px;
+  height: 200px
+}
+
+.email {
+  margin-bottom: 20px;
+  margin-top: 8px;
+  margin-left: 3px;
+}
+
+.password {
+  margin: 4px;
+}
+
+input {
+  border-radius: 25px;
+  font-size: 15px;
+  background-color: #212121;
+  border: none;
+}
+
+.login form {
+  display:flex;
+  justify-content: center;
+}
+
+.login:active {
+  color: white;
+}
+
+input[type=submit] {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: lightblue;
+  color: whitesmoke;
+}
+
+input[type=submit]:hover {
+  font-weight: bold;
+}
+
+textarea:focus, input:focus {
+  color: white;
+}
+
+input, select, textarea {
+  color: white;
+}
+
+@media (min-width: 0px){
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #282b30; 
+  height: auto;
+}
+footer > div{
+  padding: 4px 12px;
+  height: 36px;
+  margin-top: 10px;
+}
+
+  #footer-area-3{
+    margin: 10px;
+    padding: 2px 4px
+  }
+  
+  #footer-area-2{
+    text-align: center;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+  }
+  #footer-area-3{
+    padding: 8px 16px;
+  }
+}
+
+@media (min-width: 549px){
+  #footer-area-3{
+    text-align: center;
+  }
+}
