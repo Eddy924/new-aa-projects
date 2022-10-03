@@ -1,0 +1,170 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: #202124;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  header{
+    display: flex;
+    height: 52px;
+    justify-content: space-between;
+    padding: 6px 12px;
+  }
+
+  header > div{
+    height: calc(100% - 16px);
+    display: inline-block;
+    padding-top: 16px;
+    font-family: Arial, sans-serif;
+  }
+
+  a{
+    text-decoration: none;
+    margin: 8px;
+    color: lightgray;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+
+
+  .right-header{
+    text-align: right;
+    width: auto;
+  }
+
+  .right-header > a{
+    color: whitesmoke;
+  }
+
+  #sign-in-btn{
+    background-color: skyblue;
+    color: #202124;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 8px 8px;
+  }
+
+  #sign-in-btn:hover{
+    background-color: white;
+    text-decoration: none;
+  }
+
+
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+  }
+
+  .input-box-styling{
+    width: calc(100% - 40px);
+    background-color: #202124;
+    margin: 32px 14px;
+    border-radius: 25px;
+    font-size: 24px;
+    border: 1px solid gray;
+    color: white;
+    height: 32px;
+  }
+
+  .input-box-styling:hover{
+    background-color: #303134;
+  }
+
+  input{
+    background-color: transparent;
+    width: calc(100% - 30px);
+    margin-left: 20px;
+    margin-top: 5px;
+    border: none;
+    color: white;
+    font-size: 0.75em;
+  }
+
+  input:focus{
+  outline: none;
+    appearance: none;
+  }
+
+  .buttons{
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  button{
+    padding: 8px 16px;
+    margin-left: 8px;
+    background-color: #36393e;
+    border: 1px solid #36393e;
+    border-radius: 2px;
+    color: white;
+  }
+
+  button:hover{
+    border-color: lightgray;
+  }
+
+  @media (min-width: 0px){
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #161615;
+    justify-content: center;
+    height: auto;
+    font-family: Arial, sans-serif;
+  }
+
+  footer > div{
+    height: 36px;
+    margin-top: 10px;
+  }
+
+  footer > div > a{
+    padding: 8px 10px;
+  }
+
+
+  }
+
+  @media (min-width: 578px){
+
+
+       footer{
+      justify-content: space-around;
+    }
+
+    #footer-block-1{
+      text-align: center;
+      width: 100%;
+  }
+  }
+
+  @media (min-width: 900px){
+
+      footer{
+      justify-content: space-between;
+    }
+
+  #footer-block-1{
+    order: 1;
+    width: auto;
+  }
+
+  #footer-block-2{
+    order: 2;
+  }
+
+  #footer-block-3{
+    order: 3;
+  }
+  }
+
+
