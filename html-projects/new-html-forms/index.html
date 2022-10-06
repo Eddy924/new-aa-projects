@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="form for aao project">
+        <title>AAO Form Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="layout.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>App Academy Open Form Project</h1>
+        <p>This is the App Academy Open Form Project for Ed</p>
+        <form action="/web-server-url" method="post">
+
+            <fieldset>
+
+                <legend id="add-user"><span>Add User</span></legend>
+                <div class="info-input">
+                    <div class="basic-info">
+                <p>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName">
+                </p>
+
+                <p>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName">
+                </p>
+
+                <p>
+                    <label for="emailAddress">Email:</label>
+                    <input type="email" id="emailAddress">
+                </p>
+            </div>
+
+                <div class="status">
+                    <span>
+                    <label for="status">Status</label>
+                    <select id="status" name="user_status">
+                    <option>--Select your AAO Status</option>
+                    <option>Student</option>
+                    <option>Teacher</option>
+                    <option>Guest</option>
+                    </select>
+                    </span id="thedate">
+                    <span>
+                    <label for="currentDate">Date: </label>
+                    <input type="date" id="currentDate">
+                    </span>
+                </div>
+                <p>
+                    Choose your favorite programming language.
+                </p>
+                <div class="favorite-language">
+                <span>
+                    <input type="radio" id="html" name="language" value="html">
+                    <label for="html">HTML</label>
+                </span>
+                <span>
+                    <input type="radio" id="css" name="language" value="css">
+                    <label for="css">CSS</label>
+                </span>
+                <span>
+                    <input type="radio" id="javascript" name="language" value="javascript">
+                    <label for="javascript">Javascript</label>
+                </span>
+            </div>
+            <div class="comments">
+                <div>
+                    <label for="comments">Comments: </label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+                </div>
+                <div class="agreements">
+                <span>
+                    <input type="checkbox" id="newsletter" name="newsletter-agree" value="newsletter-agree">
+                    <label for="newsletter">Sign up
+                        for news</label>
+                </span>
+                <span>
+                    <input type="checkbox" id="terms" name="terms-agree" value="terms=agree">
+                    <label for="terms">Agree to
+                        terms</label>
+                </span>
+                </div>
+                <div class="submit-btn">
+                <div>
+                    <button type="Submit">Submit</button>
+                </div>
+                </div>
+            </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
